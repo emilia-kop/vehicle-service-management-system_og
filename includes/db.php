@@ -1,8 +1,8 @@
 <?php
-define('DB_HOST', 'MYSQLHOST value here');
-define('DB_USER', 'MYSQLUSER value here');
-define('DB_PASS', 'MYSQLPASSWORD value here');
-define('DB_NAME', 'MYSQLDATABASE value here');
+define('DB_HOST', 'mysql.railway.internal');
+define('DB_USER', 'root');
+define('DB_PASS','rPrIoxmKYwOsKyMrjhNqBHpVVqZQxlLj');
+define('DB_NAME', 'railway');
 
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME, 3306);
 if ($conn->connect_error) {
